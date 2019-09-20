@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27406875-9ccd-40ce-b308-4e17aabb8e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/agent.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/hdfs/HdfsRead.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprak-core-project/src/main/resources/user_visit_action.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/PageConversionApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_visit_action.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/DF2DS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/DF2RDD.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DF2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MyAvg.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MySum.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/10786.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/10786.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/hbase/ReadFromHbase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/hbase/ReadFromHbase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/hbase/Write2Hbase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/hbase/Write2Hbase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/CategoryTop10App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/CategoryTop10App.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/ProjectApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/ProjectApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spark-core/target/" />
     <ignored path="$PROJECT_DIR$/../spark0508/spark-core/target/" />
     <ignored path="$PROJECT_DIR$/sprak-core-project/target/" />
+    <ignored path="$PROJECT_DIR$/spark-sql/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,39 +64,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="4" />
           <entry key="java" value="4" />
           <entry key="log" value="1" />
-          <entry key="properties" value="2" />
-          <entry key="scala" value="309" />
+          <entry key="properties" value="3" />
+          <entry key="scala" value="332" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="10" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="4" />
           <entry key="JAVA" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="2" />
-          <entry key="Scala" value="309" />
-          <entry key="XML" value="10" />
+          <entry key="Properties" value="3" />
+          <entry key="Scala" value="332" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="properties" value="5" />
-          <entry key="scala" value="11413" />
-          <entry key="txt" value="23" />
-          <entry key="xml" value="9" />
+          <entry key="scala" value="12743" />
+          <entry key="txt" value="40" />
+          <entry key="xml" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="5" />
-          <entry key="Scala" value="11413" />
-          <entry key="XML" value="9" />
+          <entry key="Scala" value="12743" />
+          <entry key="XML" value="62" />
         </counts>
       </usages-collector>
     </session>
@@ -100,12 +104,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/PageConversionApp.scala">
+        <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MyAvg.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="51">
+              <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
               <folding>
-                <element signature="e#31#61#0" expanded="true" />
+                <element signature="e#47#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,15 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/myPartitioner/MyPartitioner.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/ReduceByKey.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/GroupBy.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/AggregateByKey.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/AggregateBy.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/AggregateByKey1.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/CombineByKey.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/FoldByKey.scala" />
-        <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/CombineByKey1.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/SortByKey.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/scriptFile.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day03/kvrdd/MapValues.scala" />
@@ -169,7 +164,6 @@
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/mysql/HdfsRead.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/mysql/MysqlWrite.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/mysql/MysqlRead.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/ShareVar.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/AccumulatorDemo.scala" />
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/MyAccumulatorDemo.scala" />
@@ -189,6 +183,16 @@
         <option value="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/hbase/ReadFromHbase.scala" />
         <option value="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/ProjectApp.scala" />
         <option value="$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/PageConversionApp.scala" />
+        <option value="$PROJECT_DIR$/sprak-core-project/pom.xml" />
+        <option value="$PROJECT_DIR$/spark-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DF.scala" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DF2.scala" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/DF2RDD.scala" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DS.scala" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/DF2DS.scala" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MySum.scala" />
+        <option value="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MyAvg.scala" />
       </list>
     </option>
   </component>
@@ -220,8 +224,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="315" />
-    <option name="y" value="646" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1190" />
     <option name="height" value="795" />
   </component>
@@ -366,47 +370,47 @@
             <path>
               <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
-              <item name="sprak-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
-              <item name="sprak-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
-              <item name="sprak-core-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
-              <item name="sprak-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
-              <item name="sprak-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
-              <item name="sprak-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_0508" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_0508" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+              <item name="dedineFunc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,7 +437,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568975084661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568985887100" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -443,20 +447,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\code\idea\spark_0508\spark-core\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atguigu.sparkcore.day05.boadcast" />
-      <recent name="com.atguigu.sparkcore.day05.acc" />
-      <recent name="com.atguigu.sparkcore.day04.mysql" />
-      <recent name="com.atguigu.sparkcore.day04.persistAndCache" />
-      <recent name="com.atguigu.sparkcore.day03.kvrdd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\idea\spark_0508\spark-sql\src\main\resources" />
       <recent name="E:\code\idea\spark_0508" />
       <recent name="E:\code\idea\spark_0508\sprak-core-project\src\main\resources" />
       <recent name="E:\code\idea\spark_0508\spark-core\src\main\scala\com\atguigu\sparkcore\day04\transferfunction" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.sparkSQL.day01.dedineFunc" />
+      <recent name="com.atguigu.sparkSQL.day01" />
+      <recent name="com.atguigu.sparkcore.day05.boadcast" />
+      <recent name="com.atguigu.sparkcore.day05.acc" />
+      <recent name="com.atguigu.sparkcore.day04.mysql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\idea\spark_0508\spark-core\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,13 +476,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProjectApp">
-    <configuration name="HdfsRead" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkcore.day04.hdfs.HdfsRead" />
-      <module name="spark-core" />
+  <component name="RunManager" selected="Application.MyAvg">
+    <configuration name="DF2DS" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkSQL.day01.DF2DS" />
+      <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.sparkcore.day04.hdfs.*" />
+          <option name="PATTERN" value="com.atguigu.sparkSQL.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -485,12 +490,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.app.ProjectApp" />
-      <module name="sprak-core-project" />
+    <configuration name="DF2RDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkSQL.day01.DF2RDD" />
+      <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.app.*" />
+          <option name="PATTERN" value="com.atguigu.sparkSQL.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -498,12 +503,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueByBoadCast" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkcore.day05.boadcast.QueByBoadCast" />
-      <module name="spark-core" />
+    <configuration name="MyAvg" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkSQL.day01.dedineFunc.MyAvg" />
+      <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.sparkcore.day05.boadcast.*" />
+          <option name="PATTERN" value="com.atguigu.sparkSQL.day01.dedineFunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,12 +516,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromHbase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkcore.day04.hbase.ReadFromHbase" />
-      <module name="spark-core" />
+    <configuration name="MySum" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkSQL.day01.dedineFunc.MySum" />
+      <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.sparkcore.day04.hbase.*" />
+          <option name="PATTERN" value="com.atguigu.sparkSQL.day01.dedineFunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,12 +529,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Write2Hbase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkcore.day04.hbase.Write2Hbase" />
-      <module name="spark-core" />
+    <configuration name="RDD2DS" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.sparkSQL.day01.RDD2DS" />
+      <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.sparkcore.day04.hbase.*" />
+          <option name="PATTERN" value="com.atguigu.sparkSQL.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -538,19 +543,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QueByBoadCast" />
-      <item itemvalue="Application.ProjectApp" />
-      <item itemvalue="Application.HdfsRead" />
-      <item itemvalue="Application.ReadFromHbase" />
-      <item itemvalue="Application.Write2Hbase" />
+      <item itemvalue="Application.DF2RDD" />
+      <item itemvalue="Application.RDD2DS" />
+      <item itemvalue="Application.DF2DS" />
+      <item itemvalue="Application.MySum" />
+      <item itemvalue="Application.MyAvg" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProjectApp" />
-        <item itemvalue="Application.Write2Hbase" />
-        <item itemvalue="Application.ReadFromHbase" />
-        <item itemvalue="Application.HdfsRead" />
-        <item itemvalue="Application.QueByBoadCast" />
+        <item itemvalue="Application.MyAvg" />
+        <item itemvalue="Application.MySum" />
+        <item itemvalue="Application.DF2DS" />
+        <item itemvalue="Application.RDD2DS" />
+        <item itemvalue="Application.DF2RDD" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +581,7 @@
       <workItem from="1568720389818" duration="5825000" />
       <workItem from="1568768138795" duration="21089000" />
       <workItem from="1568855797395" duration="12890000" />
-      <workItem from="1568944455876" duration="6863000" />
+      <workItem from="1568944455876" duration="15971000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1568597751301</created>
@@ -613,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568857663086</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="spark core 第三个需求">
+      <created>1568975341878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568975341879</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117365000" />
+    <option name="totallyTimeSpent" value="126473000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -645,18 +657,18 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32656023" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32946298" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.3280116" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.2119013" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3280116" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3280116" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" x="29" y="334" width="1492" height="472" id="Run" order="12" sideWeight="0.49865952" visible="true" weight="0.29753265" />
+      <window_info active="true" anchor="bottom" x="29" y="334" width="1492" height="472" id="Run" order="12" sideWeight="0.49798927" visible="true" weight="0.7053701" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32885906" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32841823" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -677,18 +689,18 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32656023" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32946298" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.3280116" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.2119013" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3280116" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3280116" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" x="29" y="334" width="1492" height="472" id="Run" order="12" sideWeight="0.49865952" visible="true" weight="0.29753265" />
+      <window_info anchor="bottom" x="29" y="334" width="1492" height="472" id="Run" order="12" sideWeight="0.49798927" weight="0.7532656" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32885906" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32841823" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -705,7 +717,8 @@
     <MESSAGE value="1 commit" />
     <MESSAGE value="2 commit" />
     <MESSAGE value="项目的第一/二个需求" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目的第一/二个需求" />
+    <MESSAGE value="spark core 第三个需求" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark core 第三个需求" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,115 +737,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/transferfunction/KvroSerializable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/persistAndCache/PersistDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/persistAndCache/CheckPointDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/persistAndCache/CacheDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/mysql/MysqlWrite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day04/mysql/MysqlRead.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/ShareVar.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/AccumulatorDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/MyAccumulatorDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/acc/MyAccumulator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/boadcast/Que.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/sparkcore/day05/boadcast/QueByBoadCast.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprak-core-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprak-core-project/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/Constant.scala" />
-    <entry file="jar://E:/maven/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/immutable/MapLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="87" column="35" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/constant/Constant.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -886,6 +790,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="18" column="51" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#31#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -991,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spark-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1022,6 +922,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#43#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,10 +974,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sprak-core-project/src/main/scala/com/atguigu/spark/app/PageConversionApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        <state relative-caret-position="175">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="e#31#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprak-core-project/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/SparkSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/SparkSession.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="698" column="10" lean-forward="true" selection-start-line="698" selection-start-column="10" selection-end-line="698" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DF2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/RDD2DS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/DF2RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1.jar!/org/apache/spark/sql/types/DoubleType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1-sources.jar!/org/apache/spark/sql/types/DoubleType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1-sources.jar!/org/apache/spark/sql/types/DataType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/DF2DS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MySum.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#47#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/execution/aggregate/udaf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="342" column="15" selection-start-line="342" selection-start-column="15" selection-end-line="342" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/expressions/udaf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/sparkSQL/day01/dedineFunc/MyAvg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding>
+            <element signature="e#47#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1132,7 +1178,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spark_0508</last-edited>
+          <last-edited>spark-sql</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
