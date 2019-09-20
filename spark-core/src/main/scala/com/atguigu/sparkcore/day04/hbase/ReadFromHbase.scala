@@ -15,15 +15,16 @@ object ReadFromHbase {
     conf.set("hbase.zookeeper.quorum", "hadoop102,hadoop103,hadoop104")
     conf.set(TableInputFormat.INPUT_TABLE, "student")
 
-    val rdd = sc.newAPIHadoopRDD(conf,
-      classOf[TableInputFormat],
-      classOf[ImmutableBytesWritable],
-      classOf[Result])
+    val rdd: RDD[(ImmutableBytesWritable, Result)] = sc.newAPIHadoopRDD(conf,
+                                                                        classOf[TableInputFormat],
+                                                                        classOf[ImmutableBytesWritable],
+                                                                        classOf[Result])
 
     val rdd2: RDD[String] = rdd.map {
       case (key, _) => Bytes.toString(key.get())
     }
     rdd2.collect.foreach(println)
+
     sc.stop
   }
 }

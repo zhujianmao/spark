@@ -2,13 +2,17 @@
   <dictionary name="10786">
     <words>
       <w>atguigu</w>
+      <w>calcu</w>
       <w>cogroup</w>
+      <w>formater</w>
       <w>hbase</w>
       <w>hdfs</w>
+      <w>jumpbc</w>
       <w>kvro</w>
       <w>mytest</w>
       <w>sechduler</w>
       <w>serializeble</w>
+      <w>splitsbc</w>
     </words>
   </dictionary>
 </component>

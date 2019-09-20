@@ -1,6 +1,6 @@
 package com.atguigu.spark.app
 
-import com.atguigu.spark.bean.{CategoryCountInfo, UserVisitAction}
+import com.atguigu.spark.bean.UserVisitAction
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 
@@ -28,11 +28,14 @@ object ProjectApp {
         splits(12).toLong)
     })
     //热门品类的top10
-    val categoryTop10: List[CategoryCountInfo] = CategoryTop10App.categoryTop10(sc,userVisitActionRdd)
+   // val categoryTop10: List[CategoryCountInfo] = CategoryTop10App.categoryTop10(sc,userVisitActionRdd)
     //Top10热门品类中每个品类的 Top10 活跃 Session 统计
 //    CategorySessionTop10App.statCategorySessionTop10(userVisitActionRdd,categoryTop10)
 //    CategorySessionTop10App.statCategorySessionTop10_1(userVisitActionRdd,categoryTop10)
-    CategorySessionTop10App.statCategorySessionTop10_2(userVisitActionRdd,categoryTop10)
+    //CategorySessionTop10App.statCategorySessionTop10_2(userVisitActionRdd,categoryTop10)
+
+    //页面跳转转化率
+    PageConversionApp.calcuPageConversion(sc,userVisitActionRdd,"1,2,3,4,5,6,7")
 
     sc.stop
   }

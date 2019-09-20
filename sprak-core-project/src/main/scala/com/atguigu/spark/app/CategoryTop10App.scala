@@ -14,7 +14,7 @@ object CategoryTop10App {
     val acc: CategoryTop10Accumulator = new CategoryTop10Accumulator
     sc.register(acc)
 
-    userVisitActionRdd.foreach(userVisitAction => acc.add(userVisitAction))
+    userVisitActionRdd.foreach(userVisitAction => acc.add(userVisitAction)) //在executor上执行行动算子
     //总的各个指标
     val allCount: Map[(String, String), Long] = acc.value
     //分组后(3,Map((3,pay) -> 1192, (3,click) -> 5975, (3,order) -> 1749))
