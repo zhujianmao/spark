@@ -2,8 +2,10 @@
   <dictionary name="10786">
     <words>
       <w>atguigu</w>
+      <w>bigdata</w>
       <w>calcu</w>
       <w>cogroup</w>
+      <w>dstream</w>
       <w>formater</w>
       <w>formator</w>
       <w>hbase</w>
@@ -12,8 +14,11 @@
       <w>kvro</w>
       <w>myavg</w>
       <w>mytest</w>
+      <w>partitons</w>
+      <w>sctx</w>
       <w>sechduler</w>
       <w>serializeble</w>
+      <w>sockect</w>
       <w>splitsbc</w>
     </words>
   </dictionary>

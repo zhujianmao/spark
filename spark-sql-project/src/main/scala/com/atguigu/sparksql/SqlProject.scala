@@ -45,7 +45,7 @@ object SqlProject {
         |	area,product_name,area_remark
         |from t3
         |where rank <= 3
-      """.stripMargin).show(100,false)
+      """.stripMargin).show(100,truncate = false)
 
 
     spark.close()

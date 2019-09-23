@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="spark-core,sprak-core-project,spark-sql-project,spark_0508,spark-sql" />
+    <profile name="Maven 1" modules="spark_0508,spark-sql-project,sprak-core-project,spark-streaming,spark-sql,spark-core" />
   </component>
 </project>
