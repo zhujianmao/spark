@@ -10,7 +10,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 object WordCount1 {
   def main(args: Array[String]): Unit = {
-    val conf: SparkConf = new SparkConf().setAppName("WordCount1").setMaster("local[*]")
+    val conf: SparkConf = new SparkConf().setAppName("Windows3").setMaster("local[*]")
     val ssc: StreamingContext = new StreamingContext(conf, Seconds(5))
 
     val brokers: String = "hadoop102:9092,hadoop103:9092,hadoop104:9092"

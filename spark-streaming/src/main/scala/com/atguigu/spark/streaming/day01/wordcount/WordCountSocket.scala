@@ -17,5 +17,6 @@ object WordCountSocket {
 
     ssc.start()
     ssc.awaitTermination()
+
   }
 }
